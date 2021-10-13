@@ -22,7 +22,7 @@ const CardContainer = styled.article`
 const Card = ({ title, color, icon, children }) => {
   return (
     <CardContainer $color={color}>
-      <img src={icon} alt={title} />
+      <img aria-hidden="true" src={icon} alt={title} />
       <CardTitle>{title}</CardTitle>
       <p>{children}</p>
       <Button $color={color}>Learn More</Button>
