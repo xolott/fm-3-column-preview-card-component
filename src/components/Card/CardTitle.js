@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const CardTitle = styled.h1`
+const CardTitle = styled.h2`
   font-family: ${(props) => props.theme.heading.font};
   color: ${(props) => props.theme.heading.color};
   text-transform: uppercase;

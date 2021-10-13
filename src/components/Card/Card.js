@@ -3,7 +3,7 @@ import Button from "../Button";
 import CardTitle from "./CardTitle";
 
 const CardContainer = styled.article`
-  background-color: ${(props) => props.color};
+  background-color: ${(props) => props.$color};
   padding: 48px 50px;
   @media only screen and (min-width: 600px) {
   }
@@ -21,11 +21,11 @@ const CardContainer = styled.article`
 
 const Card = ({ title, color, icon, children }) => {
   return (
-    <CardContainer color={color}>
+    <CardContainer $color={color}>
       <img src={icon} alt={title} />
       <CardTitle>{title}</CardTitle>
       <p>{children}</p>
-      <Button color={color}>Learn More</Button>
+      <Button $color={color}>Learn More</Button>
     </CardContainer>
   );
 };
