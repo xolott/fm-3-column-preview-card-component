@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const HighlightSection = styled.section`
+const HighlightSection = styled.div`
   border-radius: 8px;
   overflow: hidden;
   @media only screen and (min-width: 600px) {
