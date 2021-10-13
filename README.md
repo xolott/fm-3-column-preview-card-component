@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Repo](https://github.com/xolott/fm-3-column-preview-card-component)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Vercel App](https://fm-3-column-preview-card-component-orpin.vercel.app/)
 
 ## My process
 
